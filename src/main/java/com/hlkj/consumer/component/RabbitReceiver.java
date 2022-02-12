@@ -34,7 +34,7 @@ public class RabbitReceiver {
         channel.basicAck(deliveryTag, false);
 
         //模拟发生异常触发mq消费重试机制
-        int i = 10/0;
+//        int i = 10/0;
     }
 
 }
